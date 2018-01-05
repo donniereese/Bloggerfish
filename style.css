@@ -1,0 +1,115 @@
+body {
+	background-color: #0F1016;
+	background-color: #1B1C1F;
+	background-color: #141414;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Georgia, serif;
+	}
+
+#main {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	#main #header {
+	background: url(http://www.bloggerfish.com/images/v3_01.jpg);
+	border: 0px solid #ffffff;
+	margin: 0 auto;
+	padding-right: 16px;
+	padding-top: 18px;
+	text-align: right;
+	font-size: 10px;
+	width:784px;
+	height:38px;
+	}
+
+#displayframe {
+	border: 0;
+	background-color: #31333D;
+	width: 768px;
+	margin: 0px auto;
+	padding: 8px;
+	text-align: center;
+	}
+
+#displayframe #tl {
+	}
+
+#displayframe #tr {
+	}
+
+#displayframe #bl {
+	}
+
+#displayframe #br {
+	}
+
+#displayframe #backing {
+	background-color: #202025;
+	padding: 4px;
+	margin: 0px;
+	text-align: center;
+	border: 1px solid #0D0D0F;
+	}
+
+#displayframe #backing #workspace {
+	background-color: #202025;
+	background: url(images/v3_05.jpg);
+	padding: 4px;
+	margin: 0px;
+	text-align: center;
+	border: 1px solid #77869F;
+	}
+
+#displayframe #backing #workspace #content {
+	color: #acdcdc;
+	color: #C3DFD4;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	vertical-align: top;
+	}
+
+h1 {
+	width:600px;
+	color:#67A3CF;
+	font-size:20px;
+	font-weight:normal;
+	text-align:left;
+	margin:0;
+	padding-bottom:8px;
+	}
+
+h2 {
+	width:600px;
+	color:#67A3CF;
+	font-size:18px;
+	font-weight:normal;
+	text-align:left;
+	margin:0;
+	padding-bottom:8px;
+	}
+
+h3 {
+	width:600px;
+	color:#67A3CF;
+	font-size:16px;
+	font-weight:normal;
+	text-align:left;
+	margin:0;
+	padding-bottom:8px;
+	}
+
+.button {
+    background: #e7e3e7;
+    color: #101410;
+    border: 0px solid #31333D;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px 8px;
+    display: inline-block;
+}

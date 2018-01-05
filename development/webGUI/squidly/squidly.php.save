@@ -1,0 +1,84 @@
+<?php
+
+class squidly {
+/*Master Configuration
+  ==============================================================================
+  	The Master configuration, do not alter unless needed or if not installed 
+  	before now.
+  ------------------------------------------------------------------------------
+  //Root Directory for website
+  $SITEHOME		= "/home/.moselle/ororon/bloggerfish.com/development/webGUI/";
+  
+  //Directory for Squidly
+  $SQDLYHOME 	= "/home/.moselle/ororon/bloggerfish.com/development/webGUI/squidly/";
+
+  //Theme Home Directory
+  $THEMEHOME 	= "/home/.moselle/ororon/bloggerfish.com/development/webGUI/themes/";
+  
+  //Standard theme, if none specified
+  $STDTHEME		= "bloggerfish";
+  ==============================================================================
+*/
+	//Squidly Configuration
+	var $cookie = NULL;
+	var $session = array();
+	var $rawlog = array();
+	
+	function squidly() {
+		//Starting instance of squidly
+		$this->addlog("Squidly Initating...");
+	}
+	
+	function proccess_cookie($report="minimal") {
+		//Is there a cookie?
+		if($_COOKIE) {
+			
+			//TRUE: proccess the cookie;
+			print "cookie present";
+		} else {
+			//FALSE: 
+			$this->cookie = False;
+		}
+		//Proccess the cookie variables
+		//1. Check if cookie is present.
+		//2. If so, fetch cookie; If not, set $cookie to False;
+		//3. If not expired, reset cookie time so it stays active, and set $cookie to True;
+		//4. Check if cookie shows that it is a user and not a guest.
+	}
+	
+	function proccess_session() {
+		//Proccess the session variables
+	}
+	
+	function update_cookie() {
+		//Update the cookie.
+	}
+	
+	function cmdln($str_class, $str_func) {
+		
+	}
+	
+	function output($type, $message) {
+		if($type == "alert") {
+			$this->addlog("\$this." . __FUNCTION__ . "sent \"" . $message . "\" to the screen using \"" . $type . "\" type.");
+			print "<script type='text/javascript'>";
+			print "alert(\"" . $message . "\");";
+			print "</script>";
+		}
+	}
+	
+	function addlog($line) {
+		$this->rawlog[] = $line;
+	}
+	
+	function parse_log($sep, $before="", $after="") {
+		foreach($this->rawlog as $entry) {
+			//$this->output("alert","Entry Log");
+			print $before . $entry . $after . $sep . "\n";
+		}
+		//print "<pre>";
+		//print_r($this->rawlog);
+		//print "</pre>";
+	}
+}
+?>

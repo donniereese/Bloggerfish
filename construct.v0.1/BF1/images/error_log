@@ -1,0 +1,39 @@
+[26-Dec-2005 01:40:34] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:40:34] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:40:35] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[26-Dec-2005 01:40:35] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 20
+[26-Dec-2005 01:40:49] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:40:49] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:40:49] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[26-Dec-2005 01:40:49] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 20
+[26-Dec-2005 01:41:16] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/bloggie/public_html/images/image.php on line 9
+[26-Dec-2005 01:41:16] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:41:16] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:41:16] PHP Warning:  imagecolorallocate(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 13
+[26-Dec-2005 01:41:16] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[26-Dec-2005 01:41:16] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 23
+[26-Dec-2005 01:41:16] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 24
+[26-Dec-2005 01:41:30] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:41:30] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:41:30] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[26-Dec-2005 01:41:30] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 20
+[26-Dec-2005 01:42:04] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:42:04] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:42:04] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[26-Dec-2005 01:42:04] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 20
+[26-Dec-2005 01:44:05] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:44:05] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:44:05] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[26-Dec-2005 01:44:13] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:44:13] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:44:13] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[26-Dec-2005 01:44:25] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:44:25] PHP Warning:  imagecreatefromjpeg(images/input1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 11
+[26-Dec-2005 01:45:08] PHP Warning:  imagecreatefromjpeg(images/input2.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:46:28] PHP Warning:  imagecreatefromjpeg(storm_interpretation_high.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[26-Dec-2005 01:46:30] PHP Warning:  imagecreatefromjpeg(storm_interpretation_high.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/images/image.php on line 10
+[27-Dec-2005 20:03:39] PHP Warning:  imagecreate(): Invalid image dimensions in /home/bloggie/public_html/images/image.php on line 9
+[27-Dec-2005 20:03:39] PHP Warning:  imagecolorallocate(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 13
+[27-Dec-2005 20:03:39] PHP Warning:  imagecopy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 15
+[27-Dec-2005 20:03:39] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 23
+[27-Dec-2005 20:03:39] PHP Warning:  imagedestroy(): supplied argument is not a valid Image resource in /home/bloggie/public_html/images/image.php on line 24

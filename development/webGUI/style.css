@@ -1,0 +1,129 @@
+html {
+	margin:0 auto;
+	padding: 50px 0 0 0;
+	text-align: center;
+	background: #334;
+}
+
+body {
+	position: relative;
+	margin:  0 auto;
+	padding: 0;
+	text-align: left;
+	color: #333;
+	background-color: #fff;
+}
+
+body.fill {
+	width: 100%;
+}
+
+body.standard {
+	min-width: 700px;
+	max-width: 960px;
+	width:80%;
+	background: #fff url(squidly/extras/roundedphp/rounded.php?sh=c&o=tl&w=800&h=24&bgt=0&bg=334&fg=fff&r=8) no-repeat top left;
+}
+
+h1 {
+	position: relative;
+	top: -50px;
+	margin: 0;
+	padding: 0;
+	color: #eef;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+div#menu_block {
+	
+}
+
+div#menu_block ul#nav_top {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 600px;
+	height: 32px;
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	
+}
+
+div#menu_block ul#nav_top li {
+	list-style: none;
+	display: inline-block;
+	margin: 2px;
+	padding: 2px;
+	height:24px;
+	/*width: 16.67%;*/
+	width: 100px;
+}
+
+
+div#menu_block ul#nav_usr {
+	position: absolute;
+	left: 0px;
+	top: 32px;
+	width: 100%;
+	height: 32px;
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #0099FF;
+	
+}
+
+div#menu_block ul#nav_usr li {
+	list-style: none;
+	display: inline-block;
+	margin: 2px;
+	padding: 2px;
+	height:24px;
+	/*width: 16.67%;*/
+}
+
+div#menu_block div#dynamic_menu {
+	position: absolute;
+	left: 0px;
+	top: 64px;
+	width: 100%;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+div#bloggerfish_search {
+	position:absolute;
+	right: 0px;
+	top: 0px;
+	text-align: right;
+	width: 220px;
+	height: 24px;
+	padding: 4px 4px 0 0;
+	background: url(squidly/extras/roundedphp/rounded.php?sh=c&o=tr&w=800&h=24&bgt=0&bg=334&fg=fff&r=8) no-repeat top right;
+}
+
+div#bloggerfish_search h3 {
+	display: none;
+}
+
+/*
+ div, ul, li, h1, h2, h3, h4, form {
+	border: 1px dotted #CC0000;
+}
+*/

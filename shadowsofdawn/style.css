@@ -1,0 +1,42 @@
+* {
+color: #CFDBE8;
+font-family: verdana;
+font-size: 10px;
+}
+#red {
+color: red;
+font-family: verdana;
+font-size: 10px;
+weight: thick;
+}
+
+input, textarea, select {
+color: 05ff18;
+background: 000000;
+border: solid gray 1px;
+}
+a {
+text-decoration: none;
+text-transform: none;
+color: #BDD2E9;
+}
+a:hover {
+text-decoration: none;
+text-transform: none;
+color: #A0C0E2;
+}
+body {
+background: #202020;
+margin: 0;
+}
+
+body, iframe, select, textarea {
+scrollbar-face-color: white;
+scrollbar-highlight-color: black; 
+scrollbar-shadow-color: black; 
+scrollbar-3dlight-color: white; 
+scrollbar-arrow-color: black;
+scrollbar-track-color: black; 
+scrollbar-darkshadow-color: white; 
+scrollbar-base-color: white;
+}

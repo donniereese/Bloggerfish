@@ -1,0 +1,50 @@
+.panel {
+	/*background-color: #EFEBE7;*/
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+.panel .deco {
+	position: relative;
+	height: 52px;
+	text-align: left;
+	background: url(images/clouds_top.png) bottom right no-repeat;
+	}
+
+.panel .deco .opt {
+	float: right;
+	width:152px;
+	height:52px;
+	
+	}
+
+.panel .box {
+	background-color: #31333D;
+	padding: 8px;
+	}
+
+.panel .box .gutter {
+	background: url(images/v3_05.jpg);
+	padding: 32px;
+	}
+
+.panel .box .gutter .pane {
+	background-color: #EFEBE7;
+	text-align: left;
+	padding: 2px;
+	opacity: 1;
+	border: 4px solid #5B85AB;
+	border: 4px solid #8DAB5B;
+	}
+	
+.panel .box .gutter .pane:hover {
+	
+	}
+
+/*
+*:hover {
+	border: 1px dotted red;
+	}
+*/

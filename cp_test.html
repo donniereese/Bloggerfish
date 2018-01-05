@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script type="text/javascript">
+var b = 2;
+var u = 2;
+var i = 2;
+var s = 2;
+var colapse = 2;
+var full_count = 1500;
+function tag(v, tagadd, newbut, tagclose, oldbut, name) { 
+    if (eval(v)%2 == 0) { 
+        eval("window.document.editform."+name+".value = newbut;"); 
+        var content = window.document.editform.content.value; 
+        window.document.editform.content.value = content + tagadd; 
+        window.document.editform.content.focus(); 
+    } else { 
+        eval("window.document.editform."+name+".value = oldbut;"); 
+        var content = window.document.editform.content.value; 
+        window.document.editform.content.value = content + tagclose; 
+        window.document.editform.content.focus(); 
+    } 
+    eval(v+"++;"); 
+}
+
+function open_pref(div_name, tdname) {
+	document.getElementById(div_name).style.visibility="visible";
+	document.getElementById(div_name).style.height="auto";
+	document.getElementById(tdname).style.height="auto";
+}
+function close_pref(div_name, tdname) { 
+	document.getElementById(div_name).style.visibility="hidden";
+	document.getElementById(div_name).style.height="0px";
+	document.getElementById(tdname).style.height="0px";
+	document.getElementById(div_name).style.display = "none";
+}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<table style="width:736px;">
+	<tr>
+		<td style="width:510px;">
+			<div style="background-color:#222233; width:510px; border:2px dashed #333369;">
+				<table cellspacing="0">
+					<tr>
+						<td colspan="3"><h2>Your Blogs:</h2></td>
+					</tr>
+					<tr>
+						<td bgcolor='#333369'><b>Blog Title</b></td>
+						<td bgcolor='#333369'><b>Options</b></td>
+						<td bgcolor='#333369'>Posts</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td width='44%' style='border-left:4px solid #eeeeee;'><b>$blogcount[title]</b></td>
+						<td width='52%'><a href='cp.php?view=postnew&blogid=$blogcount[id]'>New Post</a> | 
+ <a target='_blank' href='users/$stat[user]/index.php?view=blog&blog=$blogcount[id]'>View</a> | 
+ <a href='cp.php?view=delblog&blogid=$blogcount[id]'>Delete</a> | 
+ <a href='#' onclick=\"open_pref('$blogcount[id]','td$blogcount[id]')\">Preferences</a>
+						</td>
+						<td width='4%'><b>$postcount</b></td>
+					</tr>
+					<tr>
+				</table>
+				<div id="1" style="border-bottom:1px solid #333369; padding: 4px; height:0px; visibility:hidden">
+					<a href=\"#\" onclick=\"close_pref('1','td1')\">Close</a><br>
+					<h2>$bloginfo[title]</h2>
+					<a href='cp.php?view=templatepick&blogid=$blogid'>Choose A Template</a>
+					 | 
+					<a href='cp.php?view=postedit&blogid=$blogcount[id]'>Edit Posts</a><br><br>
+					<form name='editor' method='post' action='cp.php?view=blogedit&action=edit'>
+						<input name='blogid' type='hidden' value='$blogcount[id]'>
+						<b>Page Setup:</b><br>
+						<textarea name='page_template' rows='16' cols='70'>$bloginfo[page_template]</textarea><br>
+						<b>Post Setup:</b><br>
+						<textarea name='post_template' rows='16' cols='70'>$bloginfo[post_template]</textarea><br>
+						<b>About Setup:</b><br>
+						<textarea name='about_template' rows='16' cols='70'>$bloginfo[about_template]</textarea><br>
+						<input type='submit' value='Update Your Blog Settings'>
+					</form>
+				</div>
+				<br>
+				<a id="menu_button" href='cp.php?view=blognew'>New Blog</a>
+				<br>
+			</div>
+		</td>
+		<td style="vertical-align:top;">
+			<table style="background-color:#34001C; border:2px dashed #9B195F; width:100%;">
+				<tr>
+					<td colspan="3"><h2>Your Friends:</h2></td>
+				</tr>
+				<tr>
+					<td>
+					list here
+					</td>
+				</tr>
+				<tr>
+					<td>friend</td>
+				</tr>
+				<tr>
+					<td>
+					<form method="post" action="cp.php?=add_friend">
+					<input name="member_name" type="text"> 
+					<input type="submit" value="Add">
+					</form>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

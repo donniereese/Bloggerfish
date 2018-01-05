@@ -1,0 +1,8 @@
+### Set php include_path directory ###
+
+# Examples for (platform)
+# Windows:
+# php_value include_path ".;C:\http\myproject\inc"
+
+# Linux:
+php_value include_path ".:/home/myproject/inc"

@@ -1,0 +1,359 @@
+* {
+	font-family: verdana;
+	}
+body {
+	background-color: #0F1016;
+	background: url(../../images/v3_05.jpg);
+	text-align: center;
+	margin: 0 auto;
+	}
+
+table {
+	color: #eeeeee;
+	font-size: 12px;
+	}
+
+#header {
+	background: url(../../images/v3_01.jpg) right no-repeat;
+	background-color: #0F1016;
+/*	width:100%;  */
+	margin: 0px;
+	padding-right: 16px;
+	padding-top: 18px;
+	text-align: right;
+	font-size: 10px;
+	height:38px;
+	}
+
+#menu {
+	text-align: left;
+	background: url(../../images/clouds_top.jpg) no-repeat;
+	background-position: right bottom;
+	background-color: #0F1016;
+	font-size: 10px;
+	padding-left: 8px;
+	right: 0px;
+	height: 68px;
+	}
+
+#menu_button {
+	border-top: 2px solid #676b80;
+	border-bottom:  2px solid #121216;
+	border-left: 2px solid #676b80;
+	border-right: 2px solid #121216;
+	background-color: #31333d;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#menu_button:active {
+	border-bottom: 2px solid #676b80;
+	border-top: 2px solid #121216;
+	border-right: 2px solid #676b80;
+	border-left: 2px solid #121216;
+	background-color: #31333d;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#admin_button {
+	border-top: 2px solid #9B195F;
+	border-bottom:  2px solid #18020E;
+	border-left: 2px solid #9B195F;
+	border-right: 2px solid #18020E;
+	background-color: #34001C;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#admin_button:active {
+	border-bottom: 2px solid #9B195F;
+	border-top: 2px solid #18020E;
+	border-right: 2px solid #9B195F;
+	border-left: 2px solid #18020E;
+	background-color: #34001C;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#box1 {
+	background-color: #31333D;
+	width: 100%;
+	height: 8px;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#box2 {
+	background-color: #202025;
+	width: 100%;
+	height: 4px;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#box3 {
+	background-color: #99999B;
+	width: 100%;
+	height: 4px;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#content {
+	background-color: #181816;
+	background: url(../../images/v3_05.jpg);
+	color: #acdcdc;
+	font-size: 12px;
+	padding: 8px;
+	margin: 0px;
+	text-align: left;
+	vertical-align: top;
+	}
+
+
+#content #top_bar #news_list {
+	border-right: 1px solid #99999B;
+	text-align: left;
+	padding: 2px;
+	padding-top: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 400px;
+	}
+
+#box1 #box2 #box3 #content #top_bar #news_list #news_list_item {
+	border-bottom: 1px solid #99999B;
+	margin:0px auto;
+	padding: 0px;
+	font-size:12px;
+	width: 400px;
+	color: #35567C;
+	text-indent: 1em;
+	text-decoration: none;
+	display: block;  
+	}
+
+#box1 #box2 #box3 #content #top_bar #news_list #news_list_item:hover {
+	border-bottom: 1px solid #ffffff;
+	background-color: #ffffff;
+	margin:0px auto;
+	width: 400px;
+	-moz-opacity: .5; 
+	}
+
+#box1 #box2 #box3 #content #top_bar #user_bar {
+	color: #ffffff;
+	font-size:12px;
+	}
+
+#box1 #box2 #box3 #content #top_bar #user_bar table td {
+	color: #ffffff;
+	font-size:12px;
+	}
+
+#box1 #box2 #box3 #content #news_cell {
+	border: 2px solid #888899;
+	background-color: #eeeeee;
+	color: #333333;
+	padding: 8px;
+	width: 528px;
+	}
+
+#box1 #box2 #box3 #content #news_cell #news_header {
+	color: #222266;
+	font-size: 30px;
+	font-weight: 400;
+	}
+
+#box1 #box2 #box3 #content #sidebox div {
+	border: 1px dashed #477488;
+	color: #668888;
+	}
+
+#box1 #box2 #box3 #content #sidebox #randomuserbox {
+	width:528px;
+	background-color: #111122;
+	border-top:4px solid #477488;
+	border-bottom: none;
+	padding: 2px;
+	padding-bottom:8px;
+	}
+
+#box1 #box2 #box3 #content #sidebox #randomblogbox {
+	width:528px;
+	background-color: #111122;
+	border-top:4px solid #477488;
+	border-bottom: none;
+	padding: 2px;
+	padding-bottom:8px;
+	}
+
+#box1 #box2 #box3 #content #sidebox #statbox {
+	width:528px;
+	background-color: #111122;
+	border-top:4px solid #477488;
+	padding: 2px;
+	padding-bottom:8px;
+	}
+
+#box1 #box2 #box3 #content #blog_list td {
+	font-color: #ffffff;
+	}
+
+#box1 #box2 #box3 #content #bloglist #header {
+	}
+
+
+input, textarea {
+	border: 1px solid #ccccccs;
+	background: #ffffff;
+	font-size: 12px;
+	}
+
+#input_bg {
+	border: 0px solid #000000;
+/*	border-left: 1px dashed #75828b;*/
+	background: #222233;
+/*	background: url(/images/input1.jpg) no-repeat bottom right;*/
+	background: url(/images/image.php?w=140&h=18) no-repeat;
+	font-size: 12px;
+	width:140px;
+	height:18px;
+	color: #99CC33;
+	}
+
+
+a {
+	color: #99CC33;
+	}
+
+/* ---------------------------- */
+
+input, textarea {
+	border: 1px solid #436680;
+	background: #57596F;
+	font-size: 12px;
+	color: #111122;
+	}
+
+a {
+	color: #99CC33;
+	}
+
+#mainbutton {
+	background:url(images/desktop/main.png);
+	}
+
+#mainbutton:hover {
+	background:url(images/desktop/maindown.png);
+}
+
+	
+
+/* Left Down Corner */
+.binfesq {
+	position:absolute;
+	left: 0px;
+	width:13px;
+	height:21px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/4.png);
+	background-repeat: no-repeat; 
+	background-position: center left;
+}
+
+/* Right Down Corner */
+.binfdre {
+	position:absolute;
+	right: 1px;
+	width:21px;
+	height:21px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/6.png);
+	background-repeat: no-repeat; 
+	background-position: center left;
+}
+
+/* Down Border */
+.binfcen {
+	position:absolute;
+	bottom: 0px;
+	right: 22px;
+	left: 13px;
+	height:21px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/5.png);
+	background-repeat: repeat-x; 
+}
+
+/* Right border */
+.bdre {
+	position:absolute;
+	top: 21px;
+	bottom: 21px;
+	right: 0px;
+	width:13px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/10.png);
+	background-repeat: repeat-y; 
+	background-position: top right;	
+}
+
+/* Window content */
+.txt {
+	position: absolute;
+	top: 21px;
+	bottom: 21px;
+	right: 10px;
+	left: 0px;
+	text-align: left;
+	border-left: 1px solid #D3D2D2;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/9.png);
+	background-repeat: repeat-x; 
+	background-position: top center;
+	z-index: 100;
+	background-color: #FEFEFE;
+}
+
+.interior {
+	position:absolute;
+	overflow: auto;
+	top: 2px;
+	right: 5px;
+	left: 8px;
+	bottom: 8px;
+}
+
+/* Window Foot */
+.peu {
+	position:absolute;
+	bottom: 0px;
+	width:100%;
+	height:21px;
+	text-align: left;
+	cursor: move;
+}
+/* Other items in windows */
+/* Maximize button */
+.boto {
+	position:absolute;
+	right: 26px;
+	top: 3px;
+	width:13px;
+	height:13px;
+	z-index: 150;
+}
+
+/* Resize image */
+.botobaix {
+	position:absolute;
+	right: -13px;
+	top: -1px;
+	width:13px;
+	height:13px;
+	z-index: 150;
+	cursor: se-resize;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/resize.png);
+}

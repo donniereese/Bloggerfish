@@ -1,0 +1,141 @@
+[28-Sep-2004 22:16:50] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/dredge/public_html/shadowsofdawn_beta/login.php on line 9
+[21-Oct-2004 23:07:28] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/dredge/public_html/shadowsofdawn_beta/login.php on line 9
+[21-Oct-2004 23:07:36] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/dredge/public_html/shadowsofdawn_beta/login.php on line 9
+[21-Oct-2004 23:07:43] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/dredge/public_html/shadowsofdawn_beta/login.php on line 9
+[24-Jan-2005 22:02:30] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/dredge/public_html/shadowsofdawn_beta/login.php on line 9
+[23-May-2005 21:11:27] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/mail.php on line 47
+[29-May-2005 19:55:16] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/chatmsgs.php on line 42
+[08-Aug-2005 23:11:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/battle.php on line 160
+[18-Sep-2005 20:55:00] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:00] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:00] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:00] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[18-Sep-2005 20:55:00] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:23] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_query(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:23] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:37] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[18-Sep-2005 20:55:37] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_query(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:37] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:40] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:40] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:40] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:40] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[18-Sep-2005 20:55:40] PHP Warning:  mysql_query(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/register.php on line 5
+[18-Sep-2005 20:55:40] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/register.php on line 5
+[18-Sep-2005 20:55:40] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/register.php on line 5
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:48] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[18-Sep-2005 20:55:48] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_query(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[18-Sep-2005 20:55:48] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[29-Sep-2005 21:31:47] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[29-Sep-2005 21:31:47] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[29-Sep-2005 21:31:47] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[29-Sep-2005 21:31:47] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[29-Sep-2005 21:31:47] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[29-Sep-2005 21:32:27] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_query(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[29-Sep-2005 21:32:27] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[08-Dec-2005 12:57:01] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[08-Dec-2005 12:57:01] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Dec-2005 12:57:01] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Dec-2005 12:57:01] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[08-Dec-2005 12:57:01] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Dec-2005 12:57:07] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_query(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[08-Dec-2005 12:57:07] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[09-Jan-2006 22:10:15] PHP Warning:  mysql_connect(): Access denied for user: 'bloggie@localhost' (Using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[09-Jan-2006 22:10:15] PHP Warning:  mysql_select_db(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[09-Jan-2006 22:10:15] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[09-Jan-2006 22:10:15] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[09-Jan-2006 22:10:15] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[03-Apr-2006 21:39:51] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[03-Apr-2006 21:39:51] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[03-Apr-2006 21:39:51] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[03-Apr-2006 21:39:51] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[03-Apr-2006 21:39:51] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[03-Apr-2006 21:40:00] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_query(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[03-Apr-2006 21:40:00] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:07] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[06-Apr-2006 12:52:07] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_query(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[06-Apr-2006 12:52:07] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:23] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[06-Apr-2006 12:52:23] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_query(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[06-Apr-2006 12:52:23] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[15-Sep-2006 23:26:50] PHP Warning:  mysql_connect(): Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[15-Sep-2006 23:26:50] PHP Warning:  mysql_select_db(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[15-Sep-2006 23:26:50] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[15-Sep-2006 23:26:50] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 1
+[15-Sep-2006 23:26:50] PHP Warning:  mysql_query(): Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 8
+[15-Sep-2006 23:26:50] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 8
+[15-Sep-2006 23:26:50] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/header.php on line 8
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Feb-2007 10:37:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/bloggie/public_html/shadowsofdawn_beta/config.php:2) in /home/bloggie/public_html/shadowsofdawn_beta/head.php on line 1
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bloggie'@'localhost' (using password: YES) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 2
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/config.php on line 3
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'bloggie'@'localhost' (using password: NO) in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13
+[08-Feb-2007 10:37:31] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/shadowsofdawn_beta/login.php on line 13

@@ -1,0 +1,115 @@
+#main #box1 #box2 #box3 #content #main_table {
+	border: 0px solid #ffffff;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td {
+	border: 0px solid #ffffff;
+	width: 514px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #side_td {
+	border: 0px solid #ffffff;
+	width: 200px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u {
+	width: 514px;
+	margin-bottom: 4px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #side_td #box3u {
+	width: 200px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window {
+	border: 0px solid #ffffff;
+	background-color: #222233;
+	padding: 8px;
+	text-align: left;
+	}
+	
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #listing {
+	height: 18px;
+	text-align: left;
+	overflow: hidden;
+	padding:2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom:2px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #blog_tab {
+	background: url(images/small_menu_bar.jpg);
+	height:20px;
+	vertical-align:middle;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 2px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #blog_tab_hover {
+	background: url(images/small_menu_bar_hover.jpg);
+	height:20px;
+	vertical-align:middle;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 2px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #small_bar {
+	background: url(images/small_menu_bar_short.jpg) no-repeat;
+	background-position: right;
+	height:20px;
+	vertical-align:middle;
+	text-align: left;
+	padding-left: 24px;
+	padding-right: 0px;
+	padding-top: 2px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #small_bar_hover {
+	background: url(images/small_menu_bar_short_hover.jpg) no-repeat;
+	background-position: right;
+	height:20px;
+	vertical-align:middle;
+	text-align: left;
+	padding-left: 24px;
+	padding-right: 0px;
+	padding-top: 2px;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #sub_container {
+	text-align: left;
+	padding-left: 24px;
+	padding-right: 2px;
+	padding-top: 2px;
+	}
+		
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #blog_listing_columns {
+	border: 0px solid #ffffff;
+	width:100%;
+	margin-bottom: 2px;
+	}
+	
+#main #box1 #box2 #box3 #content #main_table #bloglist_td #box3u #blog_window #blog_listing_columns #column {
+	background-color: #333369;
+	}
+
+#main #box1 #box2 #box3 #content #main_table #side_td #friends_list_window {
+	border: 0px solid #ffffff;
+	background-color: #222233;
+	padding:8px;
+	height:auto;
+	text-align: left;
+	vertical-align:top;
+	}

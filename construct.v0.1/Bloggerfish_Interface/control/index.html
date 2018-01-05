@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	
+	<title>Bloggerfish</title>
+	
+	<!-- Meta Data -->
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	
+	<!-- JavaScript Includes -->
+	<script type='text/javascript' src='../scripts/x_core.js'></script>
+	<script type='text/javascript' src='../scripts/x_event.js'></script>
+	<script type='text/javascript' src='../scripts/x_drag.js'></script>
+	<script type='text/javascript' src='../scripts/x_eyeOSwin.js'></script>
+	<script type='text/javascript' src='../scripts/blive.js'></script>
+	<script type='text/javascript' src='../scripts/panel.js'></script>
+
+	<!-- StyleSheet Includes -->
+	<link rel="stylesheet" href="/home/donnie/Desktop/bloggerfish.com/construct.v0.1/Bloggerfish_Interface/CSS/style_test.css" />
+	<link rel="stylesheet" href="/home/donnie/Desktop/bloggerfish.com/construct.v0.1/Bloggerfish_Interface/CSS/panel.css" />
+	<link rel="stylesheet" href="/home/donnie/Desktop/bloggerfish.com/construct.v0.1/Bloggerfish_Interface/CSS/toolbar.css" />
+	
+</head>
+<body onkeypress="liveText(event);">
+
+<div style="background:#eee; border-bottom:4px solid #335; color:#333; padding:8px; text-align:left;">
+<script type='text/javascript'>
+	function makepanel(){
+		
+		console = xGetElementById("error");
+		console.innerHTML = '<b>Starting VarCheck...</b><br>';
+		if (elmnt = xGetElementById("elmnt")) console.innerHTML = console.innerHTML + "+ elmnt var success<br>";
+		if (nom = xGetElementById("nom")) console.innerHTML = console.innerHTML + "+ nom var success<br>";
+		if (wdth = xGetElementById("wdth")) console.innerHTML = console.innerHTML + "+ wdth var success<br>";
+		if (hth = xGetElementById("hth")) console.innerHTML = console.innerHTML + "+ hth var success<br>";
+		if (mvabl = xGetElementById("mvabl")) console.innerHTML = console.innerHTML + "+ mvabl var success<br>";
+		if (x = xGetElementById("x")) console.innerHTML = console.innerHTML + "+ x var success<br>";
+		if (y = xGetElementById("y")) console.innerHTML = console.innerHTML + "+ y var success<br>";
+		
+		console.innerHTML = console.innerHTML + "<b>----------------------------<b><br><br>";
+		
+		if(mvabl == "Yes") {
+			if(x != "x0") {
+				if (y != "y0") {
+					create_panel(nom,wdth,hth,movabl,x,y);
+					console.innerHTML = console.innerHTML + "create panel after full movable check<br>";
+				} else {
+					create_panel(nom,wdth,hth);
+					console.innerHTML = console.innerHTML + "create panel after no y<br>";
+				}
+				create_panel(nom,wdth,hth);
+				console.innerHTML = console.innerHTML + "create panel after no x<br>";
+			}
+		} else {
+			console.innerHTML = console.innerHTML + "create panel after no movable<br>";
+			create_panel(nom,wdth,hth);
+		}
+	}
+</script>
+	
+	<b>Element: </b><input id="elmnt" type="input"> <br />
+	<div>
+		<input id="nom" type="input" value="Sample_Name">
+		<input id="wdth" type="input" value="800px" style="width:50px;">
+		<input id="hth" type="input" value="300px" style="width:50px;">
+		<input id="mvabl" type="input" value="No" style="width :70px;">
+		<input id="x" type="input" value="x0" style="width:50px;">
+		<input id="y" type="input" value="y0" style="width:50px;">
+	</div>
+	<input type="submit" value="Make" onClick="makepanel()">
+	<br>
+	<b>Errors: </b>
+	<div id="error">
+	</div>
+</div>
+
+<div class="panel">
+	<div class="deco">
+		<div class="opt">
+			<ul>
+				<li>
+					<a href=""><img src="../images/icon_sets/tango/list-remove16.png"></a>
+				</li>
+				<li>
+					<a href=""><img src="../images/icon_sets/tango/list-add16.png"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="box">
+		<div class="gutter">
+			<div class="pane" style="height:200px;">
+				<div class="toolbar">
+					<ul>
+						<li><a class="tb-form-add" href="">Add Form</a></li>
+						<li><a class="tb-tf-add" href="">Add Textfield</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="panel">
+	<div class="deco">
+		<div class="opt">
+			<a href="">hi</a>
+		</div>
+	</div>
+	<div class="box">
+		<div class="gutter">
+			<div class="pane" style="height:200px;">
+				<a href=""></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="main">
+	<div id="header">
+		
+	</div>
+	<div id="menu">
+		<div>
+			<!-- google ad block -->
+		</div>
+	</div>
+	<div id="displayframe">
+		<div id="backing">
+			<div id="workspace">
+				<div id="content">
+					<div>
+						<div style="float:left; width:65%;">
+							You are using a Mozilla-compatible browser and now will have access to new and advanced features and UI for BloggerFish.
+						</div>
+						<div style="float:right; width:35%;">
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+					
+					<div id="livetext" style="position:absolute; left:0px; top:0px; width:100%; height:100%; background-color:#eeeeee; font-size:24px; display:none;">asdf</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

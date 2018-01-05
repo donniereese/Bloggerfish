@@ -1,0 +1,470 @@
+/* Basics                                         */
+/*------------------------------------------------*/
+* {
+	font-family: verdana;
+	}
+body {
+	background-color: #0F1016;
+/*	background-color:#6289AF;*/
+	text-align: center;
+	margin: 0 auto;
+	}
+
+#main {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+#main #header {
+	background: url(http://www.bloggerfish.com/images/v3_01.jpg);
+	border: 0px solid #ffffff;
+	margin: 0 auto;
+	padding-right: 16px;
+	padding-top: 18px;
+	text-align: right;
+	font-size: 10px;
+	width:784px;
+	height:38px;
+	}
+
+#main #menu {
+	text-align: left;
+	background: url(images/clouds_top.jpg) no-repeat;
+	background-position: right bottom;
+	background-position: 560px bottom; 
+	font-size: 10px;
+	padding-right: 0px;
+	padding-left: 8px;
+	width: 800px;
+	height: 68px;
+	}
+
+#menu_button {
+	border-top: 2px solid #676b80;
+	border-bottom:  2px solid #121216;
+	border-left: 2px solid #676b80;
+	border-right: 2px solid #121216;
+	background-color: #31333d;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#menu_button:active {
+	border-bottom: 2px solid #676b80;
+	border-top: 2px solid #121216;
+	border-right: 2px solid #676b80;
+	border-left: 2px solid #121216;
+	background-color: #31333d;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#admin_button {
+	border-top: 2px solid #9B195F;
+	border-bottom:  2px solid #18020E;
+	border-left: 2px solid #9B195F;
+	border-right: 2px solid #18020E;
+	background-color: #34001C;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#admin_button:active {
+	border-bottom: 2px solid #9B195F;
+	border-top: 2px solid #18020E;
+	border-right: 2px solid #9B195F;
+	border-left: 2px solid #18020E;
+	background-color: #34001C;
+	color: #dfdfdf;
+	text-decoration: none;
+	padding: 2px;
+	}
+
+#box1 {
+	border: 0px solid #ffffff;
+	background-color: #31333D;
+	width: 768px;
+	margin: 0px auto;
+	padding: 8px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+#box1 #box2 {
+	background-color: #202025;
+	padding: 4px;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+#box1 #box2 #box3 {
+	background-color: #99999B;
+	padding: 4px;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+#main #box1 #box2 #box3 #content {
+	background-color: #181816;
+	background: url(images/v3_05.jpg);
+	color: #acdcdc;
+	color: #C3DFD4;
+	font-size: 12px;
+	padding: 8px;
+	margin: 0px;
+	text-align: left;
+	vertical-align: top;
+	}
+
+#box1 #box2 #box3 #content #tab {
+	position: relative;
+	top: -8px;
+	left: -8px;
+	width: 752px;
+	height: 92px;
+	z-index: 20;
+	overflow: hidden;
+	background: url(images/usertab.png) bottom;
+	color: #526581;
+	}
+
+#box1 #box2 #box3 #content #tab:hover {
+	}
+
+#tab .styledinput {
+	color:#526c1f;
+	font-weight:bold;
+	font-size:10px;
+	padding:4px;
+	width:100px;
+	height:12px;
+	background: url(images/logintxtbx_adv.png);
+	border:none;
+	}
+
+.bottompane {
+	min-height: 80px;
+}
+
+
+input, textarea {
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	font-size: 12px;
+	}
+
+#input_bg {
+	border: 0px solid #000000;
+/*	border-left: 1px dashed #75828b;*/
+	background: #222233;
+/*	background: url(/images/input1.jpg) no-repeat bottom right;*/
+	background: url(/images/image.php?w=140&h=18) no-repeat;
+	font-size: 12px;
+	width:140px;
+	height:18px;
+	color: #99CC33;
+	}
+
+
+a {
+	color: #99cc33;
+	}
+
+
+
+/*------------------------------------------------*/
+#header {
+	background: url(images/v3_01.png) right no-repeat;
+	width:784px;
+	margin: 0px;
+	padding-right: 16px;
+	padding-top: 18px;
+	text-align: right;
+	font-size: 10px;
+	height:38px;
+	}
+
+input, textarea {
+	border: 1px solid #436680;
+	background: #57586e;
+	font-size: 12px;
+	color: #111122;
+	}
+
+a {
+	color: #99CC33;
+	}
+
+#mainbutton {
+	background:url(images/desktop/main.png);
+	}
+
+#mainbutton:hover {
+	background:url(images/desktop/maindown.png);
+}
+/*------------------------------------------------*/
+
+
+
+/* Dock Preferences                               */
+/*------------------------------------------------*/
+#dock {
+	height: 72px;
+	width: 512px;
+	text-align: left;
+/*	border: 2px solid #c4c4cf;*/
+	margin: 0;
+	padding: 0;
+	}
+
+#dockobjects {
+	text-align: left;
+/*	border: 2px solid #fff;*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+.dockobject {
+	position: relative;
+	list-style: none;
+	float: left;
+	border: 0px solid #fff;
+	width: 64px;
+	height: 72px;
+	vertical-align: bottom;
+	background: url(images/desktop/dock/docktile64.png) no-repeat;
+	}
+
+.dockobject .do-title {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 64px;
+	height: 12px;
+	text-align: center;
+	color: #fff;
+	font-weight:bolder;
+	}
+
+.dockobject .do-icon {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+
+.dockobject .dbackground {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 128px;
+	height: 128px;
+	background: url(images/desktop/dock/docktile64.png);
+	}
+
+.dockobject .dicon {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 128px;
+	height: 128px;
+	background: url(images/mechpencil.png);
+	}
+/*------------------------------------------------*/
+
+
+/* Individual Dock Object Preferences             */
+/*------------------------------------------------*/
+#dockobj-write .do-icon {
+	background: url(images/desktop/dock/mechpencil32.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	cursor: pointer;
+	top: 0px;
+	}
+
+#dockobj-write .do-icon:hover {
+	background: url(images/desktop/dock/mechpencil32.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: -10px;
+	}
+
+#dockobj-write .do-icon:active {
+	background: url(images/desktop/dock/mechpencil64.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: 0px;
+	}
+
+#dockobj-mail .do-icon {
+	background: url(images/desktop/dock/ico.mail32.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: 0px;
+	}
+
+#dockobj-mail .do-icon:hover {
+	background: url(images/desktop/dock/ico.mail32.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: -10px;
+	}
+
+#dockobj-mail .do-icon:active {
+	background: url(images/desktop/dock/ico.mail64.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: 0px;
+	}
+
+#dockobj-info .do-icon {
+	background: url(images/desktop/dock/help32.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: 0px;
+	}
+
+#dockobj-info .do-icon:hover {
+	background: url(images/desktop/dock/help32.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: -10px;
+	}
+
+#dockobj-info .do-icon:active {
+	background: url(images/desktop/dock/help64.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	top: -10px;
+	}
+/*------------------------------------------------*/
+
+
+/* Message Preferences                            */
+/*------------------------------------------------*/
+.generic_message {
+	color: #99cc33;
+	min-width: 50%;
+	max-width: 400px;
+	min-height: 40px;
+	padding: 8px;
+	vertical-align: bottom;
+	background-color: #575863;
+	}
+/*------------------------------------------------*/
+
+
+/* Left Down Corner                               */
+/*------------------------------------------------*/
+.binfesq {
+	position:absolute;
+	left: 0px;
+	width:13px;
+	height:21px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/4.png);
+	background-repeat: no-repeat; 
+	background-position: center left;
+}
+
+/* Right Down Corner */
+.binfdre {
+	position:absolute;
+	right: 1px;
+	width:21px;
+	height:21px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/6.png);
+	background-repeat: no-repeat; 
+	background-position: center left;
+}
+
+/* Down Border */
+.binfcen {
+	position:absolute;
+	bottom: 0px;
+	right: 22px;
+	left: 13px;
+	height:21px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/5.png);
+	background-repeat: repeat-x; 
+}
+
+/* Right border */
+.bdre {
+	position:absolute;
+	top: 21px;
+	bottom: 21px;
+	right: 0px;
+	width:13px;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/10.png);
+	background-repeat: repeat-y; 
+	background-position: top right;	
+}
+
+/* Window content */
+.txt {
+	position: absolute;
+	top: 21px;
+	bottom: 21px;
+	right: 10px;
+	left: 0px;
+	text-align: left;
+	border-left: 1px solid #D3D2D2;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/9.png);
+	background-repeat: repeat-x; 
+	background-position: top center;
+	z-index: 100;
+	background-color: #FEFEFE;
+}
+
+.interior {
+	position:absolute;
+	overflow: auto;
+	top: 2px;
+	right: 5px;
+	left: 8px;
+	bottom: 8px;
+}
+
+/* Window Foot */
+.peu {
+	position:absolute;
+	bottom: 0px;
+	width:100%;
+	height:21px;
+	text-align: left;
+	cursor: move;
+}
+/* Other items in windows */
+/* Maximize button */
+.boto {
+	position:absolute;
+	right: 26px;
+	top: 3px;
+	width:13px;
+	height:13px;
+	z-index: 150;
+}
+
+/* Resize image */
+.botobaix {
+	position:absolute;
+	right: -13px;
+	top: -1px;
+	width:13px;
+	height:13px;
+	z-index: 150;
+	cursor: se-resize;
+	background: url(eyeOS/system/themes/NuoveXT/gfxwin/resize.png);
+}

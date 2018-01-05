@@ -1,0 +1,32 @@
+.toolbar {
+	margin: 0;
+	padding: 2px;
+	}
+
+.toolbar ul {
+	display: inline;
+	list-style: none;
+	margin:0;
+	padding:0;
+	}
+
+.toolbar ul li {
+	display: inline;
+	list-style: none;
+	}
+
+.toolbar ul li a {
+	font-size: 12px;
+	padding-left: 18px;
+	}
+.toolbar ul li .tb-form-add {
+	background: url(/home/donnie/Desktop/bloggerfish.com/construct.v0.1/Bloggerfish_Interface/images/icon_sets/silky/application_form_add.png) top left no-repeat;
+	}
+
+.toolbar ul li .tb-tf-add {
+	background: url(/home/donnie/Desktop/bloggerfish.com/construct.v0.1/Bloggerfish_Interface/images/icon_sets/silky/textfield_add.png) top left no-repeat;
+	}
+
+.toolbar a {
+	
+	}

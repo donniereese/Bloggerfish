@@ -1,0 +1,37 @@
+[23-Oct-2005 02:10:28] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/designers.php on line 7
+[23-Oct-2005 02:11:08] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/designers.php on line 7
+[01-Nov-2005 15:54:01] PHP Parse error:  parse error, unexpected T_STRING in /home/bloggie/public_html/nothinglost/mike.php on line 16
+[01-Nov-2005 18:35:34] PHP Parse error:  parse error, unexpected T_STRING in /home/bloggie/public_html/nothinglost/mike.php on line 16
+[04-Nov-2005 20:53:40] PHP Parse error:  parse error, unexpected $ in /home/bloggie/public_html/nothinglost/control.php on line 12
+[04-Nov-2005 21:11:32] PHP Parse error:  parse error, unexpected $ in /home/bloggie/public_html/nothinglost/projects.php on line 29
+[05-Nov-2005 03:07:08] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/control.php on line 19
+[05-Nov-2005 03:07:08] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/control.php on line 19
+[05-Nov-2005 03:28:12] PHP Parse error:  parse error, unexpected '}' in /home/bloggie/public_html/nothinglost/control.php on line 29
+[05-Nov-2005 03:40:56] PHP Parse error:  parse error, unexpected T_VARIABLE in /home/bloggie/public_html/nothinglost/projects.php on line 9
+[05-Nov-2005 03:41:14] PHP Fatal error:  Call to undefined function:  print_t() in /home/bloggie/public_html/nothinglost/projects.php on line 9
+[16-Nov-2005 13:59:06] PHP Warning:  main(header.php): failed to open stream: No such file or directory in /home/bloggie/public_html/nothinglost/projects.php on line 1
+[16-Nov-2005 13:59:06] PHP Warning:  main(header.php): failed to open stream: No such file or directory in /home/bloggie/public_html/nothinglost/projects.php on line 1
+[16-Nov-2005 13:59:06] PHP Warning:  main(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bloggie/public_html/nothinglost/projects.php on line 1
+[16-Nov-2005 13:59:06] PHP Warning:  mysql_query(): Access denied for user: 'bloggie@localhost' (Using password: NO) in /home/bloggie/public_html/nothinglost/projects.php on line 40
+[16-Nov-2005 13:59:06] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/nothinglost/projects.php on line 40
+[16-Nov-2005 13:59:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/projects.php on line 41
+[20-Nov-2005 22:56:42] PHP Warning:  Zend Optimizer does not support this version of PHP - please upgrade to the latest version of Zend Optimizer in Unknown on line 0
+[20-Nov-2005 23:00:20] PHP Warning:  Zend Optimizer does not support this version of PHP - please upgrade to the latest version of Zend Optimizer in Unknown on line 0
+[23-Nov-2005 18:06:07] PHP Warning:  Zend Optimizer does not support this version of PHP - please upgrade to the latest version of Zend Optimizer in Unknown on line 0
+[08-Dec-2005 01:50:53] PHP Parse error:  parse error, unexpected T_PRINT in /home/bloggie/public_html/nothinglost/control.php on line 61
+[08-Dec-2005 02:12:27] PHP Parse error:  parse error, unexpected T_PRINT in /home/bloggie/public_html/nothinglost/control.php on line 51
+[08-Dec-2005 17:47:29] PHP Warning:  copy(/images/works/the_pen1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/nothinglost/control.php on line 65
+[08-Dec-2005 17:48:22] PHP Warning:  copy(/images/works/the_pen1.jpg): failed to open stream: No such file or directory in /home/bloggie/public_html/nothinglost/control.php on line 65
+[16-Apr-2006 15:28:06] PHP Parse error:  parse error, unexpected $ in /home/bloggie/public_html/nothinglost/customer.php on line 57
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/bloggie/public_html/nothinglost/config.php on line 2
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_select_db(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/bloggie/public_html/nothinglost/config.php on line 3
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/bloggie/public_html/nothinglost/config.php on line 3
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/bloggie/public_html/nothinglost/projects.php on line 8
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/nothinglost/projects.php on line 8
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/projects.php on line 9
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/bloggie/public_html/nothinglost/projects.php on line 16
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/nothinglost/projects.php on line 16
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/projects.php on line 17
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/bloggie/public_html/nothinglost/projects.php on line 27
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_query(): A link to the server could not be established in /home/bloggie/public_html/nothinglost/projects.php on line 27
+[18-Apr-2006 19:39:24] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bloggie/public_html/nothinglost/projects.php on line 28

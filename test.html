@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script type="text/javascript">
+var b = 2;
+var u = 2;
+var i = 2;
+var s = 2;
+var colapse = 2;
+var full_count = 1500;
+var orig_height = 0;
+function open_pref(blog_id) {
+	orig_height = document.getElementById(blog_id).style.height;
+	document.getElementById(blog_id).style.height= "300px";
+}
+function close_pref(blog_id) { 
+	document.getElementById(blog_id).style.height = orig_height;
+} 
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body style="background-color:#ffffff;">
+
+<div style="border:2px solid #dddddd; width: 400px;">
+	<div>
+	</div>
+	<div style="background-color:#cccccc; color:#000000;"><b>Blog List:</b></div>
+	<div id="1" style="color: #000000; height:20px; border-bottom:1px solid #cccccc; overflow: hidden;">
+	<a onclick="open_pref('1')">Open</a> | 
+	<a onclick="close_pref('1')">Close</a>
+	
+	</div>
+	<div id="2" style="color: #000000; height:20px; border-bottom:1px solid #cccccc; overflow: hidden;">
+	<a onclick="open_pref('2')">Open</a> | 
+	<a onclick="close_pref('2')">Close</a><br />
+	
+	Blog Name: Blog 2<br />
+	Blag Description:<br />
+	Wow, look at this!<br />
+	Isnt this just cool? I hope it really does work though.
+	
+	</div>
+	<div id="3" style="color: #000000; height:20px; border-bottom:1px solid #cccccc; overflow: hidden;">
+	<a onclick="open_pref('3')">Open</a> | 
+	<a onclick="close_pref('3')">Close</a>
+	</div>
+</div>
+
+</body>
+</html>

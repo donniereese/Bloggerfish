@@ -1,0 +1,77 @@
+body, td {
+color: #737A86;
+font-family: Verdana;
+font-size: 10;
+}
+
+a {
+text-decoration: none;
+text-transform: none;
+color: #828A97;
+}
+a:hover {
+text-decoration: underline;
+text-transform: none;
+color: #929FB6;
+}
+
+.menu {
+font-weight: bold;
+font-size: 14;
+text-decoration: none;
+text-transform: none;
+color: #737A86;
+}
+
+.menu:hover {
+font-weight: bold;
+font-size: 14;
+text-decoration: underline;
+text-transform: none;
+color: #828A97;
+}
+
+input, select {
+color: #0C2765;
+font-size: 12px;
+background: #DBDAD6;
+border: solid #527EA4 1px;
+height: 18px;
+}
+
+textarea {
+color: #0C2765;
+font-size: 12px;
+background: #DBDAD6;
+border: solid #527EA4 1px;
+}
+
+.admin {
+
+<!-- from the menu background: ->
+background: #DBDAD6;
+
+style: bold;
+text-decoration: none;
+text-transform: none;
+border-right: 0px solid #0087FF;
+border-bottom: 0px solid #0087FF;
+color: #8AA5BD;
+}
+.admin:hover {
+style: bold;
+text-decoration: none;
+text-transform: none;
+border-right: 3px solid #0087FF;
+border-bottom: 0px solid #0087FF;
+color: #0087FF;
+}
+
+.header {
+font-size: 16px;
+margin-bottom: 0px;
+width: 100%;
+background: #A6AAB4;
+border-bottom: 4px solid #323F60;
+color: #0C2765;
+}

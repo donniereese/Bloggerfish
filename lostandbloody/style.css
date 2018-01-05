@@ -1,0 +1,220 @@
+body {
+	background-color: #0E0F21;
+	color: #70AAC7;
+	font-size: 14px;
+	font-family: Verdana;
+	font-weight: bold;
+	margin: 0px;
+	}
+#main {
+	border-right: 0px solid #54000a;
+	/*background: #000000 url(images/darkblog_02.jpg) no-repeat top right;*/
+	width: 800px;
+	height: 700px;
+	}
+
+#main #postlayer {
+	border: 0px solid #ffffff;
+	width: 432px;
+	left: 32px;
+	top: 92px;
+	position: absolute;
+	}
+
+#main #postlayer #postbody {
+	border: 0px solid #ffffff;
+	padding-left: 14px;
+	padding-bottom: 8px;
+	position: relative;
+	}
+
+#main #postlayer #postheader a {
+	color: #54000a;
+	font-size: 12px;
+	text-decoration: none;
+	}
+
+#main #postlayer #postheader a:hover {
+	color: #aa0014;
+	font-size: 12px;
+	text-decoration: none;
+	}
+
+#main #postlayer #postheader {
+	border: 0px solid #ffffff;
+	font-size: 16px;
+	padding-bottom: 6px;
+	color: #9f1f2f;
+	position: relative;
+	}
+
+#main #stats {
+	border: 0px solid #ffffff;
+	font-size: 14px;
+	width: 272px;
+	left: 510;
+	top: 288px;
+	position: absolute;
+	}
+
+#main #stats #qa {
+	font-size: 12px;
+	font-weight: normal;
+	color: #8a1f2c;
+	}
+
+#main #topmenu {
+	border: 0px solid #ffffff;
+	width: 464px;
+	top: 32px;
+	position: relative;
+	text-align: center;
+	}
+
+#main #topmenu a {
+	color: #54000a;
+	font-family: verdana;
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 8px;
+	padding-right: 8px;
+	}
+
+#main #topmenu a:hover {
+	color: #aa0014;
+	font-family: verdana;
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 8px;
+	padding-right: 8px;
+	}
+
+#newpost table {
+	margin:0px;
+	padding: 0px;
+	}
+
+#newpost table td {
+	margin:0px;
+	padding: 0px;
+	border: 0px solid #ffffff;
+	}
+
+#newpost #title {
+	width: 600px;
+	}
+
+#newpost #title input{
+	width: 600px;
+	}
+
+#newpost #body textarea {
+	width: 600px;
+	height: 260px
+	}
+
+#newpost #mood {
+	width: 544px;
+	text-align: right;
+	}
+
+#newpost #mood input {
+	width: 480px;
+	}
+
+#newpost #song {
+	width: 544px;
+	text-align: right;
+	}
+
+#newpost #song input {
+	width: 480px;
+	}
+
+#newpost #newpostsubmit {
+	width: 46px;
+	height: 50px;
+	text-align: right middle;
+	padding-left: 4px;
+	margin-top: 2px;
+	}
+
+#newpost #newpostsubmit input {
+	width: 46px;
+	height: 46px;
+	}
+
+#adminmenu {
+	border: 0px solid #2b1c1e;
+	border-bottom: 2px solid #2b1c1e;
+	background: #000000;
+	color: #75333b;
+	padding: 8px;
+	font-size: 12px;
+	}
+
+input {
+	border: 1px solid #2b1c1e;
+	background: #1a1112;
+	color: #75333b;
+	}
+
+textarea {
+	border: 1px solid #2b1c1e;
+	background: #1a1112;
+	color: #75333b;
+	}
+
+#main #stats #calender td {
+	font-size: 12px;
+}
+
+#main #stats #calender td a{
+	color: #54000a;
+	font-size: 12px;
+}
+
+#main #stats #calender td a:hover{
+	color: #aa0014;
+	font-size: 12px;
+}
+
+#main #stats #calender {
+	font-size:12px;
+	width: 240px;
+	border: 1px solid #222222;
+	border-collapse: collapse;
+	color: #ffffff;
+	background: #000000;
+	}
+
+#main #stats #calender #calenderheader {
+	border: 1px solid #222222;
+	}
+
+#main #stats #calender #today {
+	font-size:12px;
+	border: 1px solid #222222;
+	color: #75333b;
+	background: #220004;
+	font-weight: bold;
+	}
+
+#main #stats #calender #today a {
+	font-size:12px;
+	color: #75333b;
+	font-weight: bold;
+	}
+
+.td.monthdays {
+	font-size:12px;
+	border: 1px solid #111111;
+	color: #ffffff;
+	background: #000000;
+	}
+.td.nonmonthdays {
+	font-size:12px;
+	border: 0px solid #111111;
+	color: #ffffff;
+	background: #070707;
+	}

@@ -1,0 +1,27 @@
+=====================================================
+-----------------------------------------------------
+Installation:
+-----------------------------------------------------
+=====================================================
+- Set Up The Game
+=====================================================
+1. Run EF.SQL on your phpMyAdmin client.
+
+2. Edit CONFIG.PHP to match your database settings.
+
+3. Edit CHATMSGS.PHP to match your database settings.
+
+4. Insert a row into the "Players" table, then hit 'Browse'. Go to where your info is, then hit 'Edit'. Then set the 'Rank' row to "Admin", rather than "Member", to give yourself admin options.
+
+5. You're done. :P
+
+=====================================================
+- Add Weapons and Armor to Shops
+=====================================================
+1. Go to the 'equipment' table.
+
+2. Click 'Insert'.
+
+3. Leave 'id' empty, owner as '0', fill in the name and power, put 'status' as 'S', type as 'W' for weapon, and 'A' for armor, and then fil in cost/
+
+4. Click 'Go.'

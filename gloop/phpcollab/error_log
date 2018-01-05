@@ -1,0 +1,9 @@
+[10-Oct-2006 11:59:01] PHP Warning:  main(includes/settings.php): failed to open stream: No such file or directory in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 124
+[10-Oct-2006 11:59:01] PHP Warning:  main(includes/settings.php): failed to open stream: No such file or directory in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 124
+[10-Oct-2006 11:59:01] PHP Warning:  main(includes/settings.php): failed to open stream: No such file or directory in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 124
+[10-Oct-2006 11:59:01] PHP Warning:  main(): Failed opening 'includes/settings.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 124
+[10-Oct-2006 11:59:01] PHP Warning:  main(themes//block.class.php): failed to open stream: No such file or directory in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 188
+[10-Oct-2006 11:59:01] PHP Warning:  main(themes//block.class.php): failed to open stream: No such file or directory in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 188
+[10-Oct-2006 11:59:01] PHP Warning:  main(themes//block.class.php): failed to open stream: No such file or directory in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 188
+[10-Oct-2006 11:59:01] PHP Warning:  main(): Failed opening 'themes//block.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 188
+[10-Oct-2006 11:59:01] PHP Warning:  mysql_connect(): Unknown MySQL server host 'MYSERVER' (1) in /home/bloggie/public_html/gloop/phpcollab/includes/library.php on line 761
